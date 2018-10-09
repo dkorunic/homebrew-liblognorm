@@ -9,11 +9,20 @@ Using these formulae requires Homebrew, which in turn requires Xcode. If you hav
 Tap this repository once homebrew is installed:
 
 ```shell
-brew tap http://github.com/dkorunic/homebrew-liblognorm
+brew tap dkorunic/homebrew-liblognorm
 ```
 
-To install liblognorm, just use `brew install` with the formula:
+To install liblognorm, just use `brew install` with the following formulas:
 
 ```shell
+brew install libfastjson
 brew install liblognorm
 ```
+
+## Contributing
+
+Submit pull requests against the respective repos:
+
+* [gitsh](https://github.com/thoughtbot/gitsh)
+* [parity](https://github.com/thoughtbot/parity)
+* [rcm](https://github.com/thoughtbot/rcm)
