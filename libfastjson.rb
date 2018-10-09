@@ -1,5 +1,5 @@
 class Libfastjson < Formula
-  desc "Fast C JSON library"
+  desc "Fast JSON library for C"
   homepage "https://github.com/rsyslog/libfastjson/"
   url "http://download.rsyslog.com/libfastjson/libfastjson-0.99.8.tar.gz"
   sha256 "3544c757668b4a257825b3cbc26f800f59ef3c1ff2a260f40f96b48ab1d59e07"
