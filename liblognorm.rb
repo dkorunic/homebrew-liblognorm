@@ -30,7 +30,7 @@ class Liblognorm < Formula
   test do
     (testpath/"test.c").write <<~EOS
       #include "stdio.h"
-      #include <lliblognorm.h>
+      #include <liblognorm.h>
       int main() {
       printf("%s\\n", ln_version());
       return 0;
