@@ -29,7 +29,7 @@ class Liblognorm < Formula
       }
     EOS
 
-    cflags = `pkg-config --cflags liblognorm`.split(" ")
+    cflags = `pkg-config --cflags lognorm`.split(" ")
     system ENV.cc, "test.c", *cflags, "-L#{lib}", "-llognorm", "-o", "test"
     system "./test"
   end
