@@ -1,6 +1,6 @@
 # Homebrew Formulae
 
-A [Homebrew](https://brew.sh/) [tap](https://docs.brew.sh/Taps) for:
+A [Homebrew](https://brew.sh/) personal [tap](https://docs.brew.sh/Taps) for:
 
   * [liblognorm](http://www.liblognorm.com/): a log normalizing library
   * [libfastjson](https://github.com/rsyslog/libfastjson): a fast json library for C
@@ -13,7 +13,7 @@ Using these formulas requires Homebrew, which in turn requires Xcode. If you hav
 Tap this repository once homebrew is installed:
 
 ```shell
-brew tap dkorunic/homebrew-liblognorm
+brew tap dkorunic/liblognorm
 ```
 
 To install liblognorm, just use `brew install` with the following formulas:
